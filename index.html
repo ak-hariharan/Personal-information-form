@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="heading1">PERSONAL INFORMATION</h1>
+      <span class="heading-underscore"></span>
+    </header>
+    <main class="main">
+      <form class="personal-information-form" action="">
+        <label class="label-element" for="fullname">
+          Full Name:
+          <input
+            class="input-field1"
+            type="text"
+            id="fullname"
+            name="name"
+            placeholder=""
+          />
+        </label>
+
+        <label class="label-element" for="nickname">
+          Nick Name:
+          <input
+            class="input-field1"
+            type="text"
+            id="nickname"
+            name="nick-name"
+            placeholder=""
+          />
+        </label>
+
+        <label class="label-element" for="date-of-birth">
+          Date of Birth:
+          <input
+            class="input-field1 date-of-birth-field"
+            type="date"
+            id="date-of-birth"
+            name="bday"
+          />
+          <br />
+          <span class="dob-input"></span>
+          <span class="dob-input"></span>
+          <span class="slash"></span>
+          <span class="dob-input"></span>
+          <span class="dob-input"></span>
+          <span class="slash"></span>
+          <span class="dob-input"></span>
+          <span class="dob-input"></span>
+        </label>
+
+        <label class="label-element" for="place-of-birth">
+          Place Of Birth:
+          <input
+            class="input-field1"
+            type="text"
+            id="place-of-birth"
+            name="place-of-birth"
+            placeholder=""
+          />
+        </label>
+
+        <fieldset class="input-field1 gender-fieldset">
+          <legend class="gender">
+            Gender:
+            <input class="gender-input" type="radio" id="male" name="gender" />
+            <label class="gender-input-square-box" for="male"></label>
+            <label class="gender-input-label" for="male">Male</label>
+
+            <input
+              class="gender-input"
+              type="radio"
+              id="female"
+              name="gender"
+            />
+            <label class="gender-input-square-box" for="female"></label>
+            <label class="gender-input-label" for="female">Female</label>
+          </legend>
+        </fieldset>
+
+        <label class="label-element" for="email">
+          Email:
+          <input class="input-field1" type="email" id="email" name="email" />
+        </label>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
